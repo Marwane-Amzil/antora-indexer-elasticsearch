@@ -5,10 +5,11 @@
   "license": "Apache-2.0",
   "author": "Intersec SA (https://intersec.com)",
   "contributors": [
-    "Jean-Marc Coïc <jean-marc.coic@intersec.com>"
+    "Jean-Marc Coïc <jean-marc.coic@intersec.com>",
+    "Marwane Amzil for simple changes nothing big."
   ],
-  "homepage": "https://github.com/JeanMarcCoic/antora-indexer-elasticsearch",
-  "repository": "github:JeanMarcCoic/antora-indexer-elasticsearch",
+  "homepage": "https://github.com/Marwane-Amzil/antora-indexer-elasticsearch",
+  "repository": "github:Marwane-Amzil/antora-indexer-elasticsearch",
   "main": "lib/index.js",
   "dependencies": {
     "@elastic/elasticsearch": ">=7",
