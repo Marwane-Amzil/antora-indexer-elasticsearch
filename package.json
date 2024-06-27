@@ -1,18 +1,25 @@
 {
-  "name": "antora-indexer-elasticsearch",
-  "version": "0.2.0",
+  "name": "@nexus/antora-indexer-elasticsearch",
+  "version": "1.0.0",
   "description": "Indexer to Elastic Search",
   "license": "Apache-2.0",
   "author": "Intersec SA (https://intersec.com)",
   "contributors": [
-    "Jean-Marc Coïc <jean-marc.coic@intersec.com>"
+    "Jean-Marc Coïc <jean-marc.coic@intersec.com>",
+    "Amzil Marwane <marwane.amzil-ext@savoye.com>"
   ],
-  "homepage": "https://github.com/JeanMarcCoic/antora-indexer-elasticsearch",
-  "repository": "github:JeanMarcCoic/antora-indexer-elasticsearch",
+  "homepage": "https://github.com/Marwane-Amzil/antora-indexer-elasticsearch",
+  "repository": "github:Marwane-Amzil/antora-indexer-elasticsearch",
   "main": "lib/index.js",
   "dependencies": {
     "@elastic/elasticsearch": ">=7",
     "cheerio": "0.22.0"
+  },
+  "scripts": {
+    "publish-nexus": "npm publish --registry https://nexus.kiscloud.io/content/repositories/npm-public/"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.kiscloud.io/content/repositories/npm-public/"
   },
   "engines": {
     "node": ">=8.11.0"
